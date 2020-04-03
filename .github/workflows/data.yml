@@ -21,7 +21,7 @@ jobs:
         pip install -r TEHIK_Open_Data_Loading_Scripts/requirements.txt
     - name: Get data from TEHIK API
       run: |
-        python3 main.py
+        python3 TEHIK_Open_Data_Loading_Scripts/main.py
     - name: Commit data
       run: |
         git config --local user.email "action@github.com"
