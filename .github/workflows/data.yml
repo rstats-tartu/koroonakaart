@@ -3,8 +3,6 @@ name: TEHIK data update
 on:
   push:
     branches: [ master ]
-  schedule:
-    - cron:  "1 9,13,17,21 * * *"
 
 jobs:
   build:
